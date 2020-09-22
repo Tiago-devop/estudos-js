@@ -11,4 +11,3 @@ let monthsOfYear = "0 - Jan" +
 "10 - Nov" +
 "11 - Dec"
 console.log(monthsOfYear)
-console.log(monthsOfYear)
