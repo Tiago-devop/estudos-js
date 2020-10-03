@@ -1,7 +1,8 @@
 // Os iteration methods quando invocados iteram sobre os elementos do array
 
-// filter Retorna um novo array contendo somente os elementos
-//  que retornaram true na função passada por parâmetro
+// find Retorna o primeiro elemento que retornou
+//  true na função passada por parâmetro
+
 const frameworks = [
     {
         name: 'Angular.js',
@@ -16,7 +17,7 @@ const frameworks = [
         contributors: 210
     }
 ]
-const result = frameworks.filter(function (framework) {
-    return framework.contributors < 1000
+const result = frameworks.find(function (framework) {
+    return framework.name === 'Angular.js'
 })
 console.log(result)
